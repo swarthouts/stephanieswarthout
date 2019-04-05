@@ -51,6 +51,13 @@ body, html {
     background-attachment: scroll;
     min-height: 400px;
   }
+  .rotateimg90 {
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
 }
 </style>
 <body>
@@ -193,7 +200,7 @@ Research Projects
 
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
-      <img src="/w3images/map.jpg" class="w3-image w3-round" style="width:100%">
+      <img src="images/me.JPG" class="rotateimg90" class="w3-image w3-round" style="width:100%">
     </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
@@ -201,7 +208,7 @@ Research Projects
 <i class="fa fa-facebook fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Stephanie Swarthout<br>
       </div>
       <p>Feel free to check out my insta <i class="fa fa-instagram"></i>, or leave me a note:</p>
-      <form action="/action_page.php" target="_blank">
+      <form action="https://formspree.io/swarthouts@allegheny.edu" method="POST">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
             <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
